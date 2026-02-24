@@ -199,7 +199,7 @@ while True:
 
     # Show emoji in the BOTTOM-RIGHT corner
     if current_emoji is not None:
-        emoji_size = 250 
+        emoji_size = 550 
         ex = w - emoji_size - 20
         ey = h - emoji_size - 20
         overlay_image(img, current_emoji, ex, ey, emoji_size)
